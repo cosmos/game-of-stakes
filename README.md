@@ -7,7 +7,7 @@ Game of Stakes is Cosmos's incentivized testnet.
 
 Here you will find:
 
-[Rules](Rules.md)
+[Rules](RULES.md)
 
 Genesis Files
 
