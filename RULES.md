@@ -1,5 +1,9 @@
 # Game of Stakes Rules(DRAFT)
 
+These are the rules for playing Game of Stakes.
+
+They can be updated at anytime. Rule changes will be commited here and notifiactions will occur on [Riot](https://matrix.to/#/!hEuEYSWKomxnWlSKqi:matrix.org?via=matrix.org&via=matrix.bitple.com&via=t2bot.io)
+
 ## Victory Criteria
 
 Victory in Game of Stakes is based on providing a convince demonstration of interesting attacks on the Cosmos Proof of Stake incentivization layer.
