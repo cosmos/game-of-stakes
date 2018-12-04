@@ -1,6 +1,6 @@
 # Game Of Stakes
 
-![Game Of Stakes](GameofStakes.png)
+![Game Of Stakes](GameOfStakes.png)
 
 
 Game of Stakes is Cosmos's incentivized testnet.
