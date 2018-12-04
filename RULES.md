@@ -3,6 +3,7 @@
 These are the rules for playing Game of Stakes.
 
 They can be updated at any time. Rule changes will be committed here and notifications will occur on [Riot](https://matrix.to/#/!hEuEYSWKomxnWlSKqi:matrix.org?via=matrix.org&via=matrix.bitple.com&via=t2bot.io)
+This document is the only authoritative set of rules, superseding all prior announcements.
 
 ## Victory Criteria
 
@@ -41,3 +42,4 @@ Players are expected to run the software with the latest bug fixes and improveme
 ## Governance
 
 Governance is largely not a core piece of Game of Stakes. Governance votes that fail will result in burnt coins. Players can also vote for a network wide upgrade to new versions of the software. Tendermint will change scored chain in accordance with governance. If players vote for a non-Tendermint provided release, there will be a bonus for the player that creates the upgrade.
+
