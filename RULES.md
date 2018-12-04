@@ -1,4 +1,4 @@
-# Game of Stakes Rules(DRAFT)
+# Game of Stakes Rules
 
 These are the rules for playing Game of Stakes.
 
