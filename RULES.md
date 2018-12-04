@@ -2,7 +2,9 @@
 
 These are the rules for playing Game of Stakes.
 
-They can be updated at anytime. Rule changes will be commited here and notifiactions will occur on [Riot](https://matrix.to/#/!hEuEYSWKomxnWlSKqi:matrix.org?via=matrix.org&via=matrix.bitple.com&via=t2bot.io)
+They can be updated at anytime. Rule changes will be commited here and notifiactions will occur on [Riot](https://matrix.to/#/!hEuEYSWKomxnWlSKqi:matrix.org?via=matrix.org&via=matrix.bitple.com&via=t2bot.io).
+
+This document is the only authoritative set of rules, superseding all prior announcements.
 
 ## Victory Criteria
 
