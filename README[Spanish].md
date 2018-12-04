@@ -7,7 +7,7 @@ Game of Stakes es una testnet de Cosmos incentivada.
 
 Aquí puedes encontrar:
 
-[Rules](RULES.md)
+[Reglas](RULES.md)
 
 Archivos del genesis.
 
