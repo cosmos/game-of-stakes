@@ -22,9 +22,11 @@ To be bonded at genesis, you need to generate a genesis transaction and submit i
 
 The final genesis.json will all the bonded particpants will be released at 6:00 am UTC on Monday December 10th. 
 
-###To generate a genesis transaction,
+I reccomend that you download the genesis file, start your server and connect to the seed nodes as early as possible.s
 
-[reference](https://github.com/cosmos/cosmos-sdk/blob/develop/docs/gaia/validators/validator-setup.md)
+### To generate a genesis transaction,
+
+[docs](https://github.com/cosmos/cosmos-sdk/blob/develop/docs/gaia/validators/validator-setup.md)
 
 install `v0.27.1` of the Cosmos SDK.
 
