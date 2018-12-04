@@ -2,21 +2,21 @@
 
 These are the rules for playing Game of Stakes.
 
-They can be updated at anytime. Rule changes will be commited here and notifiactions will occur on [Riot](https://matrix.to/#/!hEuEYSWKomxnWlSKqi:matrix.org?via=matrix.org&via=matrix.bitple.com&via=t2bot.io)
+They can be updated at any time. Rule changes will be committed here and notifications will occur on [Riot](https://matrix.to/#/!hEuEYSWKomxnWlSKqi:matrix.org?via=matrix.org&via=matrix.bitple.com&via=t2bot.io)
 
 ## Victory Criteria
 
-Victory in Game of Stakes is based on providing a convince demonstration of interesting attacks on the Cosmos Proof of Stake incentivization layer.
+Victory in Game of Stakes is based on providing a convincing demonstration of interesting attacks on the Cosmos Proof of Stake incentivization layer.
 
-Tendermint stiff will be making recommendations to the Interchain Foundation based on the demonstrated performance of validators. The goal of Game of Stakes is to maximize a validators uptime and accumulate stake through manipulation of the inflation, fee distribution and consensus system. Novel, interesting and successful strategies will play a large role in our recommendations.
+Tendermint staff will be making recommendations to the Interchain Foundation based on the demonstrated performance of validators. The goal of Game of Stakes is to maximize a validators uptime and accumulate stake through manipulation of the inflation, fee distribution and consensus system. Novel, interesting and successful strategies will play a large role in our recommendations.
 
 In general, Tendermint will weight uptime over raw stake for determining winners. 
 
-Only a validator operator address registered with us are eligible to win. If you need to change your operator address, you must clear it with Tendermint  to remain eligible.
+Only validator operator addresses registered with us are eligible to win. If you need to change your operator address, you must clear it with Tendermint to remain eligible.
 
 ## Disqualification
 
-Tendermint will disqualify and if necessary fork out players that undermine the goals of Game of Stakes to test interesting strategies for manipulating the incentive system. The most obvious reason for disqualification is trying to “ win” through a sybil attack on the registration process. If you simple registered accounts for your friends  and then delegate or transfer all your STAKE to a single or small number of validators this will disqualify all the participants. Griefing validators by delegating stake to try and get them disqualified is also forbidden.  Cartel based attacks that require custom engineering are expressly in bounds.
+Tendermint will disqualify and, if necessary, fork out players that undermine the goals of Game of Stakes to test interesting strategies for manipulating the incentive system. The most obvious reason for disqualification is trying to "win" through a sybil attack on the registration process. If you simply registered accounts for your friends  and then delegate or transfer all your STAKE to a single or small number of validators, this will disqualify all the participants. Griefing validators by delegating stake to try and get them disqualified is also forbidden. Cartel based attacks that require custom engineering are expressly in bounds.
 
 ## Prohibited Behavior
 
@@ -40,4 +40,4 @@ Players are expected to run the software with the latest bug fixes and improveme
 
 ## Governance
 
-Governance is largely not a core piece of Game of Stakes. Governance votes that fail will result in burnt coins. Players can also vote for a network wide upgrade to new versions of the software. Tendermint will change scored chain in accordance to with governance. If players vote for a non-Tendermint provided release, there will be a bonus for the player that creates the upgrade.
+Governance is largely not a core piece of Game of Stakes. Governance votes that fail will result in burnt coins. Players can also vote for a network wide upgrade to new versions of the software. Tendermint will change scored chain in accordance with governance. If players vote for a non-Tendermint provided release, there will be a bonus for the player that creates the upgrade.
