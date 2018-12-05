@@ -3779,7 +3779,7 @@
         "mint": {
             "minter": {
                 "last_update": "1970-01-01T00:00:00Z",
-                "inflation": "0.1300000000",
+                "inflation": "100.0000000000",
                 "annual_provisions": "0.0000000000"
             },
             "params": {
