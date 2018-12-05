@@ -34,7 +34,10 @@ run `gaiad init`
 
 Download [genesis](genesis.json) to `$HOME/.gaiad/config/genesis.json`
 
-then run 
+if you need to recover the key you used for signup do
+
+`gaiacli keys add <key-id>  --recover`
+
 
 ```
 gaiad gentx \
