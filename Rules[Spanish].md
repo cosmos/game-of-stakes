@@ -1,4 +1,4 @@
-# Reglas para el Game of Steaks(BORRADOR)
+# Reglas para Game of Steaks
 
 Estas son las reglas para participar en Game of Steaks
 
