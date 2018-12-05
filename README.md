@@ -38,12 +38,12 @@ then run
 
 ```
 gaiad gentx \
-  --amount 10000STEAK \
-  --commission-rate "0.10" \
-  --commission-max-rate "1.00" \
-  --commission-max-change-rate "0.01" \
-  --pubkey $(gaiad tendermint show-validator)  \
-  --name <key-id>
+  --amount=10000STAKE \
+  --commission-rate="0.10" \
+  --commission-max-rate="1.00" \
+  --commission-max-change-rate="0.01" \
+  --pubkey=$(gaiad tendermint show-validator)  \
+  --name=<key-id>
 ```
 
 This will generate a file roughly like `$HOME/.gaiad/config/gentx/gentx-c00ce0b868bd5d5576d23f0ad1090f3f478b7961.json`
