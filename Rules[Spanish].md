@@ -44,10 +44,13 @@ Explotación de vulnerabilidades de seguridad a nivel de aplicación en Cosmos +
 
 Las vulnerabilidades que son reveladas por los participantes de GoS pueden ser elegibles para el pago de recompensas en los Atoms, y los participantes que aprovechen las vulnerabilidades para obtener una apuesta serán descalificados del concurso.
 
+## Ataques Halts & Double-Spend attacks
 
-## Forks
+Detener o duplicar el gasto de la cadena resulta en una penalización para los validadores y delegados responsables, según lo determine Tendermint con cualquier análisis proporcionado por la comunidad. En caso de que un cártel gaste dos veces en una cadena, los jugadores deben conservar sus archivos WAL y enviarlos a Tendermint para aumentar su propia posición en la clasificación final
 
-Las actualizaciones basadas en fork se pueden esperar durante el Game of Stakes. Tendermint notificará a los jugadores de la cadena que se está utilizando para puntuar a los jugadores. Si un cartel dobla su gasto en una cadena, los jugadores deben retener sus archivos WAL y enviarlos a Tendermint para aumentar su propia posición en la clasificación final.
+## Hard/Soft Forks
+
+Las actualizaciones basadas en Forks se pueden esperar durante el Game of Steaks. Tendermint notificará a los jugadores de la cadena que se está utilizando para el marcador de los jugadores.
 
 Se espera que los jugadores ejecuten el software con las últimas correcciones y mejoras de los desarrolladores de Tendermint.
 
