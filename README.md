@@ -9,7 +9,7 @@ Here you will find:
 
 [Rules](RULES.md)
 
-Genesis Files
+[Genesis Files](https://github.com/cosmos/game-of-stakes/blob/master/genesis.json)
 
 Instructions for the Network Start
 
