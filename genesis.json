@@ -1,6 +1,6 @@
 {
     "genesis_time": "2018-11-29T20:49:23.92585Z",
-    "chain_id": "game_of_stakess",
+    "chain_id": "game_of_stakes",
     "consensus_params": {
         "block_size": {
             "max_bytes": "22020096",
