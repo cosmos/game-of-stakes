@@ -37,7 +37,7 @@ then run
 
 ```
 gaiad gentx \
-  --amount 10000STEAK \
+  --amount 10000STAKE \
   --commission-rate "0.10" \
   --commission-max-rate "1.00" \
   --commission-max-change-rate "0.01" \
