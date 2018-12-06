@@ -23,7 +23,7 @@
             "value": "tZLgPKQyV2gvrDoOVVmIfWypZamiJ5mRxa+WhDH87Wg="
           },
           "delegation": {
-            "denom": "STEAK",
+            "denom": "STAKE",
             "amount": "10000"
           }
         }
@@ -44,7 +44,7 @@
           "type": "tendermint/PubKeySecp256k1",
           "value": "AxuW7EnRkvCC030mbnisRiGoYV+IfX2J44cKWUU1HM4t"
         },
-        "signature": "8K8kqltnza6PaeUxY2hW7hiEs4RsVQzUWWVvTpgVFp4MGd08V8giJalsJZVfjh7NjLEVlZZixHJj1Ya/30bFtQ=="
+        "signature": "VxJc1wwkznDYz54hhaJkEhyIEv6iRrAwueJJMBG09B8wxYHmWEudR1HS1Php+eKHULRvi//utlMKbYe7vaxUpQ=="
       }
     ],
     "memo": "beb5a5c517d830a3ed0689def1a3301a6ecdf6b7@131.153.49.100:26656"
