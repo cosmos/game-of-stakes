@@ -1,6 +1,6 @@
 {
     "genesis_time": "2018-11-29T20:49:23.92585Z",
-    "chain_id": "game_of_stakess",
+    "chain_id": "game_of_stakes",
     "consensus_params": {
         "block_size": {
             "max_bytes": "22020096",
@@ -199,7 +199,7 @@
                 "account_number": "0"
             },
             {
-                "address": "cosmos1hg9ck0urhxe45npjv8pz4e6gy7ndr2rcah2uag",
+                "address": "cosmos1k8kpqt3rfxlf30wtclrmjjk44lzjp4zzm4szja",
                 "coins": [
                     {
                         "denom": "STAKE",
@@ -1940,6 +1940,21 @@
             },
             {
                 "address": "cosmos1a50f7wq7nr2tj4rvsfv6q7y8q6wqply66472mt",
+                "coins": [
+                    {
+                        "denom": "STAKE",
+                        "amount": "10000"
+                    },
+                    {
+                        "denom": "photinos",
+                        "amount": "10000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0"
+            },
+            {
+                "address": "cosmos1u6ddcsjueax884l3tfrs66497c7g86skk24gr0",
                 "coins": [
                     {
                         "denom": "STAKE",
@@ -3724,7 +3739,7 @@
                 "account_number": "0"
             },
             {
-                "address": "cosmos1h8y3ymjz3kcvymds5egzladdz97lnfpn7k2t25",
+                "address": "cosmos1vhxkpclye6jf2rpm8per32gtv003rdv4zpqtte",
                 "coins": [
                     {
                         "denom": "STAKE",
@@ -3752,6 +3767,21 @@
                 ],
                 "sequence_number": "0",
                 "account_number": "0"
+            },
+            {
+                "address": "cosmos1aaumwh9rc9ksh7dwuxux43jd93e7t4u8qwg9tg",
+                "coins": [
+                    {
+                        "denom": "STAKE",
+                        "amount": "10000"
+                    },
+                    {
+                        "denom": "photinos",
+                        "amount": "10000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0"
             }
         ],
         "auth": {
@@ -3759,7 +3789,7 @@
         },
         "stake": {
             "pool": {
-                "loose_tokens": "2490000.0000000000",
+                "loose_tokens": "2510000.0000000000",
                 "bonded_tokens": "0.0000000000"
             },
             "params": {
@@ -3779,7 +3809,7 @@
         "mint": {
             "minter": {
                 "last_update": "1970-01-01T00:00:00Z",
-                "inflation": "0.1300000000",
+                "inflation": "100.0000000000",
                 "annual_provisions": "0.0000000000"
             },
             "params": {
