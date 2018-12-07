@@ -1,0 +1,52 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "Description": {
+            "moniker": "bunghi",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "Commission": {
+            "rate": "0.1000000000",
+            "max_rate": "1.0000000000",
+            "max_change_rate": "0.0100000000"
+          },
+          "delegator_address": "cosmos1ktcwmkrgamuhfqm78mwy0py8a0uy5mddjz86mm",
+          "validator_address": "cosmosvaloper1ktcwmkrgamuhfqm78mwy0py8a0uy5mddhkn0hg",
+          "pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "pvGGQ7T899+JnPRMnLxd1xl8jlKYy/XfIyiAvdIkUdY="
+          },
+          "delegation": {
+            "denom": "STAKE",
+            "amount": "10000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "",
+          "amount": "0"
+        }
+      ],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "ArInEBq4RaL+EUiHSM6ZboAfkEFof1c+cfkm1DHBljlL"
+        },
+        "signature": "zn2yWGlv5vFvXJigtVDhK/IMc5ngqFIervyLnbnGQhgP4b0EyUVb96P4/qPbU+72a00zRYP5lmxUPJEGYF2cVQ=="
+      }
+    ],
+    "memo": "502b44ae7022ba069a0a9e51077a6edb6c9a43a5@10.0.0.4:26656"
+  }
+}
