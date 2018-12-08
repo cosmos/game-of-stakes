@@ -1,0 +1,52 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "Description": {
+            "moniker": "Atom Guide",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "Commission": {
+            "rate": "1.0000000000",
+            "max_rate": "1.0000000000",
+            "max_change_rate": "1.0000000000"
+          },
+          "delegator_address": "cosmos1s7jnk7t6yqzensdgpvkvkag022udk8429exc87",
+          "validator_address": "cosmosvaloper1s7jnk7t6yqzensdgpvkvkag022udk842qdjdtd",
+          "pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "6r14R/ANdUhsMwVkYH+RNFLcO572tJKsIrW6Iz25d3Q="
+          },
+          "delegation": {
+            "denom": "STAKE",
+            "amount": "10000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "",
+          "amount": "0"
+        }
+      ],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Ag+I0OzjX2AHatgaW1kJjNRs+Ck/2UQe8t0eDr5Av3/6"
+        },
+        "signature": "Fx8QLYkcyi53S3LUhtoOZ2YzP8YWoj+VWjyOWNEHCMMRQTKW6H9o811TrPMZJfx+ubpfxqR6bL39afP6o/l0DQ=="
+      }
+    ],
+    "memo": "03bb531c25d24fb79aa567cb564d53332a546e47@172.17.0.2:26656"
+  }
+}
