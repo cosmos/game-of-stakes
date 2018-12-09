@@ -1,0 +1,52 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "Description": {
+            "moniker": "Iron Shadow",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "Commission": {
+            "rate": "1.0000000000",
+            "max_rate": "1.0000000000",
+            "max_change_rate": "1.0000000000"
+          },
+          "delegator_address": "cosmos1xn7g7emmfrtll6jz5lc9r5gmyytttw7k29xvkf",
+          "validator_address": "cosmosvaloper1xn7g7emmfrtll6jz5lc9r5gmyytttw7k03je66",
+          "pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "5PV26Z2STG8/H4622lMvsuTxVO08JkEEDrQwlCmqgfo="
+          },
+          "delegation": {
+            "denom": "STAKE",
+            "amount": "10000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "",
+          "amount": "0"
+        }
+      ],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A+RlMpLOzx6Pauw25H49hd3tWqmaWtATp78TN3N0b6f0"
+        },
+        "signature": "nkjJjLnm+GBgiru6Ud6Eb0h6R1y26jCwB5+Kt7EeYthIiTuvNBYDFPTCNMrK7g0dPj3BUIL3nIHkpH4v4P7F7Q=="
+      }
+    ],
+    "memo": "367f5ae1501c1ebba8079311d2d89bb6eac77bc1@172.31.14.232:26656"
+  }
+}
