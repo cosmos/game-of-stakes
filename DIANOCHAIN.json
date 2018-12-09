@@ -1,0 +1,46 @@
+{
+    "type": "auth/StdTx",
+    "value": {
+        "msg": [{
+            "type": "cosmos-sdk/MsgCreateValidator",
+            "value": {
+                "Description": {
+                    "moniker": "DIANOCHAIN",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                },
+                "Commission": {
+                    "rate": "0.1000000000",
+                    "max_rate": "1.0000000000",
+                    "max_change_rate": "0.0100000000"
+                },
+                "delegator_address": "cosmos1yf8r909vrzzwyuard2l6qz7ge8z3md93hz0uvc",
+                "validator_address": "cosmosvaloper1yf8r909vrzzwyuard2l6qz7ge8z3md93jkmfqt",
+                "pubkey": {
+                    "type": "tendermint/PubKeyEd25519",
+                    "value": "LTkooQ7PQgpafrd1WIvZp0EePEvGLiQDCtZ+iMWqJB4="
+                },
+                "delegation": {
+                    "denom": "STAKE",
+                    "amount": "10000"
+                }
+            }
+        }],
+        "fee": {
+            "amount": [{
+                "denom": "",
+                "amount": "0"
+            }],
+            "gas": "200000"
+        },
+        "signatures": [{
+            "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AgA+Qoknj/9zx6uyEPvLTDrCwsW/zhMXYId9VLf8tHMl"
+            },
+            "signature": "ryxiKONsytF86RzO7C651nm8icr0fiALfMxlYCddvHsA1NB4bEutbUZ4tR0jIavohW/fPd9dx+shV28PVknvOQ=="
+        }],
+        "memo": ""
+    }
+}
