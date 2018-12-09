@@ -19,6 +19,21 @@
     "app_state": {
         "accounts": [
             {
+                "address": "cosmos196mcg3dpgy8ytwhl5c8eqt7msyx0253l7flmey",
+                "coins": [
+                    {
+                        "denom": "STAKE",
+                        "amount": "10000"
+                    },
+                    {
+                        "denom": "photinos",
+                        "amount": "10000000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0"
+            },
+            {
                 "address": "cosmos1xuwcmdvef5xudnyqa9gh5vqlq6ff0meuqc7p92",
                 "coins": [
                     {
