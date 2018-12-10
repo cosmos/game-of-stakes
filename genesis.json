@@ -3855,7 +3855,7 @@
                 "bonded_tokens": "0.0000000000"
             },
             "params": {
-                "unbonding_time": "259200000000000",
+                "unbonding_time": "86400000000000",
                 "max_validators": 300,
                 "bond_denom": "STAKE"
             },
@@ -3892,7 +3892,7 @@
                 "val_pool": [],
                 "community_pool": []
             },
-            "community_tax": "0.0200000000",
+            "community_tax": "0.0000000000",
             "base_proposer_reward": "0.2000000000",
             "bonus_proposer_reward": "0.0400000000",
             "validator_dist_infos": null,
@@ -3918,7 +3918,7 @@
                 "voting_period": "172800000000000"
             },
             "tally_params": {
-                "quorum":"0.6600000000",
+                "quorum":"0.3300000000",
                 "threshold": "0.5000000000",
                 "veto": "0.3340000000",
                 "governance_penalty": "0.0100000000"
@@ -3926,13 +3926,13 @@
         },
         "slashing": {
             "params": {
-                "max-evidence-age": "120000000000",
+                "max-evidence-age": "86400000000000",
                 "signed-blocks-window": "5000",
                 "min-signed-per-window": "0.5000000000",
                 "double-sign-unbond-duration": "300000000000",
                 "downtime-unbond-duration": "600000000000",
                 "slash-fraction-double-sign": "0.2000000000",
-                "slash-fraction-downtime": "0.0100000000"
+                "slash-fraction-downtime": "0.0500000000"
             },
             "signing_infos": {},
             "missed_blocks": {},
