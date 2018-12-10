@@ -3,7 +3,7 @@
   "chain_id": "game_of_stakes",
   "consensus_params": {
     "block_size": {
-      "max_bytes": "22020096",
+      "max_bytes": "50000",
       "max_gas": "1500000"
     },
     "evidence": {
