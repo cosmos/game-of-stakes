@@ -3902,6 +3902,7 @@
                 "voting_period": "172800000000000"
             },
             "tally_params": {
+                "quorum":"0.6600000000",
                 "threshold": "0.5000000000",
                 "veto": "0.3340000000",
                 "governance_penalty": "0.0100000000"
