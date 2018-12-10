@@ -4,7 +4,7 @@
     "consensus_params": {
         "block_size": {
             "max_bytes": "22020096",
-            "max_gas": "-1"
+            "max_gas": "1500000"
         },
         "evidence": {
             "max_age": "100000"
