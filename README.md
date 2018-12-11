@@ -15,5 +15,8 @@ Genesis Files
 
 All gen-txs have been merged. 
 
-The genensis file will be release at 06:00 UTC on Dec 11th.
+We are delaying Game of Stakes launch based on the demands of the validator community to run a 48hr testnet.
 
+If you have feeling about the delay or want to join the community testnet, chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.org&via=t2bot.io)
+
+The genensis file will be release at 06:00 UTC on Dec 13th.
