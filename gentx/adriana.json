@@ -1,0 +1,52 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "Description": {
+            "moniker": "adriana",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "Commission": {
+            "rate": "1.0000000000",
+            "max_rate": "1.0000000000",
+            "max_change_rate": "1.0000000000"
+          },
+          "delegator_address": "cosmos1zf8ev99xzr73ffsfwhceuu8e7dur2pgds73na6",
+          "validator_address": "cosmosvaloper1zf8ev99xzr73ffsfwhceuu8e7dur2pgd429x3f",
+          "pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "s0oFJ+dSRi/yWC49hxwiNj6I5/JLeRvyZ1SHdPXxpiU="
+          },
+          "delegation": {
+            "denom": "STAKE",
+            "amount": "10000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "",
+          "amount": "0"
+        }
+      ],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "Ap211h5XPUpKpF//dkoACYNIPGCiHsCiR2epfH7369EA"
+        },
+        "signature": "SgQomqF7r1EGQrK1vxWznaqIriT10cMJFthFjN0XhIx0VCyy7LhTQa7Bjk2hwTM7CHmpiVUsP84b1zv5Lor1wg=="
+      }
+    ],
+    "memo": "427f2f3d4700b782ac6f7c682686179cb6ea6918@45.32.133.125:26656"
+  }
+}
