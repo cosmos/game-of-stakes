@@ -22,9 +22,9 @@ The genensis file will be release at 06:00 UTC on Dec 11th.
 
 ### Welcome to the Launch of Game of Stakes.
 
-You are part of large experiment in computer science. Today we will be launching the largest Byzantine Fault Tolerant network in history.
+You are about to be part of largest experiment in byzantine fault tolernant computer science. Today you an going to help launh the largest Byzantine Fault Tolerant network in history.
 
-This is the first large scale adversarial BFT network ever.
+This be is the first large scale adversarial BFT network ever.
 
 This will network will be the first demonstration of cartel behavior and censorship in an incentivized network.
 
