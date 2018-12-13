@@ -17,9 +17,9 @@ Genesis Files
 
 We will commit to a 1 week feature freeze on testnet release but only 1 day on a bugfix release.
 
-Monday was the last feature release expected and validators are playing with min feeze and gas limits for the first time on [genki-3001](https://github.com/certusone/genki-3001).
+Monday was the last feature release expected and validators are playing with min freeze and gas limits for the first time on [genki-3001](https://github.com/certusone/genki-3001).
 
-The Tendermint liveness bug discoverd on `genki-3000` is being investigated thanks to some amazing contributions of forensic artifacts from the community.
+The Tendermint liveness bug discovered on `genki-3000` is being investigated thanks to some amazing contributions of forensic artifacts from the community.
 
 Dec 18th 06:00 UTC is the current target for GoS.
 
