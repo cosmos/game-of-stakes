@@ -3905,7 +3905,7 @@
         "min_deposit": [
           {
             "denom": "STAKE",
-            "amount": "100"
+            "amount": "500"
           }
         ],
         "max_deposit_period": "172800000000000"
