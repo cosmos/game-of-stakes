@@ -62,7 +62,7 @@ Finally,  make sure you have the correct `genesis.json`
 `67a350a435c44b59db605f899441b2d202b480f7008937f9a49b36343b73106c  genesis.json`
 
 
-Once you have double checked all this, `gaiad unsafe-reset-all` and then `gaiad start --minimum_fees=1STAKE`.  After you have `gaiad start` do not run a reset all again unless we have decided to switch to a new chain id.
+Once you have double checked all this, `gaiad unsafe-reset-all` and then `gaiad start --minimum_fees=1STAKE,1photino`.  After you have `gaiad start` do not run a reset all again unless we have decided to switch to a new chain id.
 
 ### Seed Nodes
 
