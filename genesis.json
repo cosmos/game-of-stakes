@@ -3854,7 +3854,7 @@
       },
       "params": {
         "unbonding_time": "86400000000000",
-        "max_validators": 200,
+        "max_validators": 300,
         "bond_denom": "STAKE"
       },
       "last_total_power": "0",
