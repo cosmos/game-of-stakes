@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2018-12-18T06:13:37.60561Z",
+  "genesis_time": "2018-12-18T03:50:14.188329Z",
   "chain_id": "game_of_stakes",
   "consensus_params": {
     "block_size": {
@@ -1864,7 +1864,7 @@
         "account_number": "0"
       },
       {
-        "address": "cosmos1me6s5n90d0e8w99kmn8kr6y5ekwx0x7lkrnw4l",
+        "address": "cosmos1cs0vvptezsgysec4g6tsnr6tp2h3z0dp934jsc",
         "coins": [
           {
             "denom": "STAKE",
@@ -3842,6 +3842,21 @@
         ],
         "sequence_number": "0",
         "account_number": "0"
+      },
+      {
+        "address": "cosmos17x6ly36r2hfxtu8ctflmrdt3z9qjr0wq43pymz",
+        "coins": [
+          {
+            "denom": "STAKE",
+            "amount": "15000"
+          },
+          {
+            "denom": "photinos",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
       }
     ],
     "auth": {
@@ -3849,7 +3864,7 @@
     },
     "stake": {
       "pool": {
-        "loose_tokens": "3825000.0000000000",
+        "loose_tokens": "3840000.0000000000",
         "bonded_tokens": "0.0000000000"
       },
       "params": {
@@ -3867,14 +3882,14 @@
     },
     "mint": {
       "minter": {
-        "inflation": "100.0000000000",
+        "inflation": "80.0000000000",
         "annual_provisions": "0.0000000000"
       },
       "params": {
         "mint_denom": "STAKE",
         "inflation_rate_change": "1.0000000000",
         "inflation_max": "100.0000000000",
-        "inflation_min": "100.0000000000",
+        "inflation_min": "80.0000000000",
         "goal_bonded": "0.9900000000",
         "blocks_per_year": "6311520"
       }
@@ -3905,7 +3920,7 @@
         "min_deposit": [
           {
             "denom": "STAKE",
-            "amount": "100"
+            "amount": "500"
           }
         ],
         "max_deposit_period": "172800000000000"
@@ -3917,14 +3932,14 @@
         "quorum": "0.3300000000",
         "threshold": "0.5000000000",
         "veto": "0.3340000000",
-        "governance_penalty": "0.0100000000"
+        "governance_penalty": "0.0000000000"
       }
     },
     "slashing": {
       "params": {
         "max-evidence-age": "86400000000000",
         "signed-blocks-window": "5000",
-        "min-signed-per-window": "0.5000000000",
+        "min-signed-per-window": "0.0500000000",
         "double-sign-unbond-duration": "300000000000",
         "downtime-unbond-duration": "0",
         "slash-fraction-double-sign": "0.2000000000",
