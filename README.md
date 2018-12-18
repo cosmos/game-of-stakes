@@ -7,17 +7,22 @@ Game of Stakes is Cosmos's incentivized testnet.
 
 Here you will find:
 
-[Rugiles](RULES.md)
+[Rules](RULES.md)
 
-Genesis Files
+[Genesis File](genesis.json)
+
+Dec 18th 06:00 UTC is the current target for GoS.
+
+chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.org&via=t2bot.io)
+
+
 
 ## Updates
 
-All gen-txs have been merged. 
+### Launch policy
 
 We are delaying Game of Stakes launch based on the demands of the validator community to run a 48hr testnet.
-
-If you have feeling about the delay or want to join the community testnet, chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.org&via=t2bot.io)
+Chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.org&via=t2bot.io)
 
 The genensis file will be release at 06:00 UTC on Dec 13th.
 
@@ -69,4 +74,5 @@ We would also very much appreciate logs being kept on validator nodes via `gaiad
 After you have `gaiad start` do not run a reset all again unless we have decided to switch to a new chain id.
 
 ### Seed Nodes
+
 
