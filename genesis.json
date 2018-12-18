@@ -3842,6 +3842,21 @@
         ],
         "sequence_number": "0",
         "account_number": "0"
+      },
+      {
+        "address": "cosmos17x6ly36r2hfxtu8ctflmrdt3z9qjr0wq43pymz",
+        "coins": [
+          {
+            "denom": "STAKE",
+            "amount": "15000"
+          },
+          {
+            "denom": "photinos",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
       }
     ],
     "auth": {
@@ -3849,7 +3864,7 @@
     },
     "stake": {
       "pool": {
-        "loose_tokens": "3825000.0000000000",
+        "loose_tokens": "0.0000000000",
         "bonded_tokens": "0.0000000000"
       },
       "params": {
