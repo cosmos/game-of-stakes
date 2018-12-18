@@ -47,7 +47,7 @@ First, triple check your software versions.
 
 ```
 gaiad version
-0.28.0-0-g68019bef6
+0.28.0-0-g68019bef
 ```
 Just a note gaia `v0.28.1` has been tested to be fully compatible with this chain. You can choose to use the version at launch and we will shorly reccomend all players upgrade.
 
@@ -72,12 +72,15 @@ Finally,  make sure you have the correct `genesis.json`
 
 Once you have double checked all this, `gaiad unsafe-reset-all`
 We recommend setting min fees on your sentry nodes via the commandline or gaiad.toml. `gaiad start --minimum_fees=1STAKE,1photino`.  
-We would also very much appreciate logs being kept on validator nodes via `gaiad start  --log_level="consensus:debug,mempool:debug,*:info"
+We would also very much appreciate logs being kept on validator nodes via `gaiad start  --log_level="consensus:debug,mempool:debug,*:info"`.
 After you have `gaiad start` do not run a reset all again unless we have decided to switch to a new chain id.
 
 ### Seed Nodes
 
 I'll accept seed nodes as pull requests here.
 
+- `c04d6c2bd5b8cfa1523ea167686f7bad152d6fe7@35.233.162.22:26656`(cryptiumlabs1)
+- `3ae23cf4cc791043d8aa2165f013c17c58f28083@35.242.246.54:26656`(cryptiumlabs2)
+- `68f695585e46ba097816a84ac7f682f917248ae4@35.240.142.49:26656`(cryptiumlabs3)
 - `ba3bacc714817218562f743178228f23678b2873@public-seed-node.gos.certus.one:26656`
 - `db02715d74e68c48884aad9e9c7dac6bc7f3c7cd@35.239.245.16:26656`
