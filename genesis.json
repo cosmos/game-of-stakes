@@ -3904,8 +3904,8 @@
         "community_pool": null
       },
       "community_tax": "0.0000000000",
-      "base_proposer_reward": "0.2000000000",
-      "bonus_proposer_reward": "0.0400000000",
+      "base_proposer_reward": "0.0100000000",
+      "bonus_proposer_reward": "0.1000000000",
       "validator_dist_infos": null,
       "delegator_dist_infos": null,
       "delegator_withdraw_infos": null,
