@@ -78,3 +78,5 @@ After you have `gaiad start` do not run a reset all again unless we have decided
 ### Seed Nodes
 
 I'll accept seed nodes as pull requests here.
+
+- `ba3bacc714817218562f743178228f23678b2873@public-seed-node.gos.certus.one`
