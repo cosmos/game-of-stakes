@@ -33,12 +33,6 @@ To upgrade, download the new genesis to your genesis folder.
 
 `gaiad start` with command line flags as appriopiate for your node type.
 
-
-
-
-
-
-
 ### Launch policy
 
 We are delaying Game of Stakes launch based on the demands of the validator community to run a 48hr testnet.
