@@ -24,7 +24,7 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 We are delaying Game of Stakes launch based on the demands of the validator community to run a 48hr testnet.
 Chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.org&via=t2bot.io)
 
-The genensis file will be release at 06:00 UTC on Dec 13th.
+The genensis file has been released.  Keep reading...
 
 If you're a validator who had to submit a "Simulated Event" form to your cloud services provider, you may want to contact the provider with updated dates for the challenge or resubmit your form to ensure that you are in compliace with your provider's terms of service.
 
