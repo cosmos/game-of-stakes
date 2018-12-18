@@ -19,6 +19,26 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 ## Updates
 
+### Upgrade 1.
+
+We chose a very conservative initial blocksize of `50kb` for the intitial game of stakes launch as a conservative starting.
+
+With 199 validatiors online, the signatures in blockheader now take up most of the block.
+
+We will be doing the first network upgrade.
+
+To upgrade, download the new genesis to your genesis folder.
+
+`gaiad unsafe-reset-all`
+
+`gaiad start` with command line flags as appriopiate for your node type.
+
+
+
+
+
+
+
 ### Launch policy
 
 We are delaying Game of Stakes launch based on the demands of the validator community to run a 48hr testnet.
