@@ -26,6 +26,8 @@ Chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 The genensis file will be release at 06:00 UTC on Dec 13th.
 
+If you're a validator who had to submit a "Simulated Event" form to your cloud services provider, you may want to contact the provider with updated dates for the challenge or resubmit your form to ensure that you are in compliace with your provider's terms of service.
+
 ## Instructions for Launching Game of Stakes
 
 
