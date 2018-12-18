@@ -77,4 +77,4 @@ After you have `gaiad start` do not run a reset all again unless we have decided
 
 ### Seed Nodes
 
-
+I'll accept seed nodes as pull requests here.
