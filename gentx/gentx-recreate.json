@@ -1,0 +1,52 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "Description": {
+            "moniker": "WanCloud",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "Commission": {
+            "rate": "0.1000000000",
+            "max_rate": "1.0000000000",
+            "max_change_rate": "0.0100000000"
+          },
+          "delegator_address": "cosmos18eh3vq03xvpexa0krrq5ezlueuz5kujuezyygf",
+          "validator_address": "cosmosvaloper18eh3vq03xvpexa0krrq5ezlueuz5kujuuks3y6",
+          "pubkey": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "YiwbbcL72KSker2ZuGhYGbvddF06HvO0uMPqZnjOzc8="
+          },
+          "delegation": {
+            "denom": "STAKE",
+            "amount": "10000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "",
+          "amount": "0"
+        }
+      ],
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "AmAJUnEMEexswAJiT51fs38AkmXH22cTlm03xwz2uHRu"
+        },
+        "signature": "+rWeHh6tinST/LBQUn7yWm2w67YNsSuMVnnDJnjaaOlwh+ab3WgXmv+g3RSFKXjLdTK/YXBQLl+u8BPMXXCvDA=="
+      }
+    ],
+    "memo": "619f94efb21d7c5d2c3b6cbe36741cf4c4547fb8@10.8.84.171:26656"
+  }
+}
