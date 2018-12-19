@@ -28,7 +28,7 @@ With 199 validators online, the signatures in blockheader now take up most of th
 
 We will be doing the first network upgrade.
 
-To upgrade, **install the new gaiad version** `v0.28.2` and download the new genesis to your config folder.
+To upgrade, **install the new gaiad version** `v0.29.0` and download the new genesis to your config folder.
 
 `gaiad unsafe-reset-all` <- this is safe since we are starting a new chain
 
