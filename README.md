@@ -19,6 +19,26 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 ## Updates
 
+### Upgrade 2.
+>brought to you by Zaki and Certus One
+
+The genesis time experiment in Upgrade 1 worked perfectly and caused us to start producing blocks and achieve consensus at exactly 2018-12-20 15:00 UTC.
+
+However a bug in the gaiad export for zero height logic caused the chain to halt while committing block 30.
+
+The genesis file could be fixed manually by resetting every height in the genesis file to 0.
+
+
+To upgrade please **download the updated genesis.json**. We are still using version `0.29.0-0-g2b3842c58`
+
+`gaiad unsafe-reset-all` <- this is safe since we are starting a new chain
+
+`gaiad start` with command line flags as appropriate for your node type.
+
+Genesis time will be 2018-12-21 15:00 UTC.
+
+Your node will idle after `gaia start` and then automatically begin connecting.
+
 ### Upgrade 1.
 >brought to you by Zaki and Certus One
 
