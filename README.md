@@ -71,9 +71,9 @@ First, triple check your software versions.
 
 ```
 gaiad version
-0.28.0-0-g68019bef
+0.29.0-0-g2b3842c5
 ```
-Just a note gaia `v0.28.1` has been tested to be fully compatible with this chain. You can choose to use the version at launch and we will shorly reccomend all players upgrade.
+Just a note gaia `v0.29.0` has been tested to be fully compatible with this chain. You can choose to use the version at launch and we will shorly reccomend all players upgrade.
 
 Next check the timeouts in your `config.toml`
 
@@ -91,7 +91,7 @@ Finally,  make sure you have the correct `genesis.json`
 
 `shasum -a 256 genesis.json `
 
-`236d64695be4b27a98be435efbe84fd57601829dfbdda617fde8c010f996cd0f genesis.json`
+`e12cfd40f58653c69cee8d9d8d649f96d875dcab1ee24799cbbf3b9c98b510b1 genesis.json`
 
 
 Once you have double checked all this, `gaiad unsafe-reset-all`
