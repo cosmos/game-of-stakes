@@ -32,8 +32,8 @@ To upgrade, **install the new gaiad version** `v0.29.0` and download the new gen
 `git fetch --tags`
 `git checkout v0.29.0`
 `make get_vendor_deps && make install`
-`gaiad version`
-`0.29.0-0-g2b3842c58`
+
+`gaiad version` should return: `0.29.0-0-g2b3842c5`
 
 `gaiad unsafe-reset-all` <- this is safe since we are starting a new chain
 
