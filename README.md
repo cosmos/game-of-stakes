@@ -111,7 +111,7 @@ Finally,  make sure you have the correct `genesis.json`
 
 `shasum -a 256 genesis.json `
 
-`236d64695be4b27a98be435efbe84fd57601829dfbdda617fde8c010f996cd0f genesis.json`
+`0e7132b284e8fc8c8e51a90e158204b376d6203e5f12c14e253edbfb38dbebef genesis.json`
 
 
 Once you have double checked all this, `gaiad unsafe-reset-all`
