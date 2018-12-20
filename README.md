@@ -109,3 +109,4 @@ I'll accept seed nodes as pull requests here.
 - `ba3bacc714817218562f743178228f23678b2873@public-seed-node.gos.certus.one:26656`
 - `db02715d74e68c48884aad9e9c7dac6bc7f3c7cd@35.239.245.16:26656`
 - `343f3d9f1851df44acf976ac832c3633ab49e001@54.146.83.223:26656`
+- `1d741cfee5d78c5caf0b5a5b513e7793d50ea26f@goku.forbole.com:26656`
