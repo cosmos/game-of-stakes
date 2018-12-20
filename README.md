@@ -34,6 +34,8 @@ To upgrade, **install the new gaiad version** `v0.29.0` and download the new gen
 
 `gaiad start` with command line flags as appropriate for your node type.
 
+Genesis time will be 2018-12-20 15:00 UTC.
+
 ### Launch policy
 
 We are delaying Game of Stakes launch based on the demands of the validator community to run a 48hr testnet.
