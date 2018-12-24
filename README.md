@@ -19,6 +19,24 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 ## Updates
 
+### The holiday hiatus and Game of Stakes 3
+
+We are on a holiday hiatus for Game of Stakes till Jan 3rd.
+
+Check out short video [play by play](https://www.youtube.com/watch?v=orEQY2sMdlI) 
+
+Here is what we are doing during the holiday hiatus.
+
+- `genki-4000` is running. https://github.com/certusone/genki-4000
+
+- The `genki-4001` upgrade is being planned for Dec 28th. This provide some additional stress testing of export to genesis process that has been a struggle to Q&A.
+
+- I expect to be posting the GoS 3 genesis.json file before Jan 2nd with a genesis time of Jan 3rd. I am thinking of picking a more asia friendly time. https://github.com/certusone/genki-4000/issues/3
+
+- We will be assessing the shortfalls in our QA process on the upgrade process after holidays but I think we can have confidence in a launch of the 3rd because of the prveious two steps.
+
+
+
 ### Upgrade 2.
 >brought to you by Zaki and Certus One
 
