@@ -25,7 +25,7 @@ We are excited to resume Game of Stakes in the new year at 15:00 UTC on Jan 3rd.
 
 The new genesis file for Game of Stakes 3 is up.
 
-We are expecting validators to run `0.29.1-rc0-0-g62d49ed1e` which is a state machine compatible release that fixes an exploitable coin minting bug.
+We are expecting validators to run `0.29.1-0-g6bff708` which is a state machine compatible release that fixes an exploitable coin minting bug.
 
 ```
 shasum -a 256 genesis.json
