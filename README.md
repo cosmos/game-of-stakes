@@ -29,7 +29,7 @@ We are expecting validators to run `0.29.1-rc0-0-g62d49ed1e` which is a state ma
 
 ```
 shasum -a 256 genesis.json
-dd50873e018e46aa52340be51eddc3ffa96dfbb03489e4438ad4195ae96064a5  genesis.json
+1dc332f04bb09e29fed2b596f85d7e43ebfc9247278cd12546ac5b9f4318ab0e  genesis.json
 ```
 
 We are expecting to launch GoS 3 this week and possibly do a hard fork upgrade on Jan 10th.
