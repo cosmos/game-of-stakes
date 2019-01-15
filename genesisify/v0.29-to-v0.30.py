@@ -1,40 +1,43 @@
 #!/usr/bin/env python3
 
-import json, sys
+import json, sys, math
 
 if len(sys.argv) != 3:
   print('Usage: ./v0.29-to-v0.30.py [exported_genesis.json] [new_genesis.json]')
   sys.exit(1)
 
-old = json.loads(sys.argv[1])
+old = json.load(open(sys.argv[1]))
 new = sys.argv[2]
 
 # Delete old distribution fields
 
-del old['distr']['validator_dist_infos']
-del old['distr']['delegator_dist_infos']
+del old['app_state']['distr']['validator_dist_infos']
+del old['app_state']['distr']['delegator_dist_infos']
+
+old['app_state']['staking'] = old['app_state']['stake']
+del old['app_state']['stake']
 
 # Create new distribution fields
 
 # All validators
-validators = [v['operator_address'] for v in old['staking']['validators']]
+validators = [v['operator_address'] for v in old['app_state']['staking']['validators']]
 
 def shares_to_tokens(d):
   val = d['validator_addr']
-  val = [v for v in old['staking']['validators'] if v['operator_address'] == val][0]
-  tokens = int(val['tokens'])
-  shares = int(val['delegator_shares'])
-  del_tokens = int(d['shares']) * tokens / shares
-  return str(del_tokens)
+  val = [v for v in old['app_state']['staking']['validators'] if v['operator_address'] == val][0]
+  tokens = float(val['tokens'])
+  shares = float(val['delegator_shares'])
+  del_tokens = float(d['shares']) * tokens / shares
+  return str(int(math.floor(del_tokens)))
 
 # All delegations
-delegations = [(d['delegator_addr'], d['validator_addr'], shares_to_tokens(d)) for d in old['staking']['validators']]
+delegations = [(d['delegator_addr'], d['validator_addr'], shares_to_tokens(d)) for d in old['app_state']['staking']['bonds']]
 
 # No outstanding rewards
-old['distr']['outstanding_rewards'] = None
+old['app_state']['distr']['outstanding_rewards'] = None
 
 # One starting info per delegation
-old['distr']['delegator_starting_infos'] = [{
+old['app_state']['distr']['delegator_starting_infos'] = [{
   'delegator_addr': d,
   'validator_addr': v,
   'starting_info': {
@@ -45,20 +48,20 @@ old['distr']['delegator_starting_infos'] = [{
 } for (d, v, s) in delegations]
 
 # One starting period per validator
-old['distr']['validator_historical_rewards'] = [{
+old['app_state']['distr']['validator_historical_rewards'] = [{
   'validator_addr': v,
   'period': 1,
   'rewards': None
 } for v in validators]
 
 # Zero starting accumulated commission
-old['distr']['validator_accumulated_commissions'] = [{
+old['app_state']['distr']['validator_accumulated_commissions'] = [{
   'validator_addr': v,
   'accumulated': None
 } for v in validators]
 
 # Zero starting current rewards for each validator
-old['distr']['validator_current_rewards'] = [{
+old['app_state']['distr']['validator_current_rewards'] = [{
   'validator_addr': v,
   'rewards': {
     'rewards': None,
@@ -67,8 +70,8 @@ old['distr']['validator_current_rewards'] = [{
 } for v in validators]
 
 # No slash events
-old['distr']['validator_slash_events'] = []
+old['app_state']['distr']['validator_slash_events'] = []
 
-json.dump(old, open(new, 'w'))
+json.dump(old, open(new, 'w'), indent = True)
 
 print('Wrote {}!\n'.format(new))
