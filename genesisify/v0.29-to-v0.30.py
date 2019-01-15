@@ -14,8 +14,12 @@ new = sys.argv[2]
 del old['app_state']['distr']['validator_dist_infos']
 del old['app_state']['distr']['delegator_dist_infos']
 
+print('Cleared old distribution state')
+
 old['app_state']['staking'] = old['app_state']['stake']
 del old['app_state']['stake']
+
+print('Renamed "stake" to "staking"')
 
 # Create new distribution fields
 
@@ -36,6 +40,8 @@ delegations = [(d['delegator_addr'], d['validator_addr'], shares_to_tokens(d)) f
 # No outstanding rewards
 old['app_state']['distr']['outstanding_rewards'] = None
 
+print('Set outstanding rewards')
+
 # One starting info per delegation
 old['app_state']['distr']['delegator_starting_infos'] = [{
   'delegator_addr': d,
@@ -47,6 +53,8 @@ old['app_state']['distr']['delegator_starting_infos'] = [{
   }
 } for (d, v, s) in delegations]
 
+print('Set delegator starting infos')
+
 # One starting period per validator
 old['app_state']['distr']['validator_historical_rewards'] = [{
   'validator_addr': v,
@@ -54,11 +62,15 @@ old['app_state']['distr']['validator_historical_rewards'] = [{
   'rewards': None
 } for v in validators]
 
+print('Set validator historical rewards')
+
 # Zero starting accumulated commission
 old['app_state']['distr']['validator_accumulated_commissions'] = [{
   'validator_addr': v,
   'accumulated': None
 } for v in validators]
+
+print('Set validator accumulated commissions')
 
 # Zero starting current rewards for each validator
 old['app_state']['distr']['validator_current_rewards'] = [{
@@ -69,9 +81,13 @@ old['app_state']['distr']['validator_current_rewards'] = [{
   }
 } for v in validators]
 
+print('Set validator current rewards')
+
 # No slash events
 old['app_state']['distr']['validator_slash_events'] = []
 
+print('Set validator slash events')
+
 json.dump(old, open(new, 'w'), indent = True)
 
-print('Wrote {}!\n'.format(new))
+print('Wrote {}!'.format(new))
