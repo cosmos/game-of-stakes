@@ -41,16 +41,16 @@ old['app_state']['distr']['delegator_starting_infos'] = [{
   'delegator_addr': d,
   'validator_addr': v,
   'starting_info': {
-    'previous_period': 1,
+    'previous_period': '1',
     'stake': s,
-    'height': 0
+    'height': '0'
   }
 } for (d, v, s) in delegations]
 
 # One starting period per validator
 old['app_state']['distr']['validator_historical_rewards'] = [{
   'validator_addr': v,
-  'period': 1,
+  'period': '1',
   'rewards': None
 } for v in validators]
 
@@ -65,7 +65,7 @@ old['app_state']['distr']['validator_current_rewards'] = [{
   'validator_addr': v,
   'rewards': {
     'rewards': None,
-    'period': 2
+    'period': '2'
   }
 } for v in validators]
 
