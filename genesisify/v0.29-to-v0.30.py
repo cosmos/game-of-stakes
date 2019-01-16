@@ -26,6 +26,16 @@ del old['app_state']['stake']
 
 print('Renamed "stake" to "staking"')
 
+# Dec -> Int
+
+old['app_state']['staking']['pool']['loose_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['loose_tokens']))))
+old['app_state']['staking']['pool']['bonded_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['bonded_tokens']))))
+
+for v in old['app_state']['staking']['validators']:
+  v['tokens'] = str(int(math.floor(float(v['tokens']))))
+
+print('Converted sdk.Dec to sdk.Int for validators')
+
 # Create new distribution fields
 
 # All validators
@@ -98,6 +108,18 @@ print('Set validator current rewards')
 old['app_state']['distr']['validator_slash_events'] = []
 
 print('Set validator slash events')
+
+# Set new required auth params
+
+old['app_state']['auth']['params'] = {
+  "MemoCostPerByte": "3",
+  "MaxMemoCharacters": "256",
+  "TxSigLimit": "7",
+  "SigVerifyCostED25519": "590",
+  "SigVerifyCostSecp256k1": "1000"
+}
+
+# Set chain ID
 
 old['chain_id'] = 'game_of_stakes_4'
 
