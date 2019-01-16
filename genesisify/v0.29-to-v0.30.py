@@ -6,7 +6,12 @@ if len(sys.argv) != 3:
   print('Usage: ./v0.29-to-v0.30.py [exported_genesis.json] [new_genesis.json]')
   sys.exit(1)
 
-old = json.load(open(sys.argv[1]))
+raw = open(sys.argv[1]).read()
+raw = raw.replace('STAKE', 'stake')
+
+print('Renamed "STAKE" to "stake"')
+
+old = json.loads(raw)
 new = sys.argv[2]
 
 # Delete old distribution fields
@@ -36,6 +41,12 @@ def shares_to_tokens(d):
 
 # All delegations
 delegations = [(d['delegator_addr'], d['validator_addr'], shares_to_tokens(d)) for d in old['app_state']['staking']['bonds']]
+
+# Delete val accum
+del old['app_state']['distr']['fee_pool']['val_accum']
+del old['app_state']['distr']['fee_pool']['val_pool']
+
+print('Deleted val accum & val pool')
 
 # No outstanding rewards
 old['app_state']['distr']['outstanding_rewards'] = None
@@ -87,6 +98,10 @@ print('Set validator current rewards')
 old['app_state']['distr']['validator_slash_events'] = []
 
 print('Set validator slash events')
+
+old['chain_id'] = 'game_of_stakes_4'
+
+print('Set chain ID to game_of_stakes-4')
 
 json.dump(old, open(new, 'w'), indent = True)
 
