@@ -119,6 +119,13 @@ old['app_state']['auth']['params'] = {
   "SigVerifyCostSecp256k1": "1000"
 }
 
+print('Set auth params')
+
+old['app_state']['slashing']['params']['downtime-jail-duration'] = old['app_state']['slashing']['params']['downtime-unbond-duration']
+del old['app_state']['slashing']['params']['downtime-unbond-duration']
+
+print('Renamed slashing params')
+
 # Set chain ID
 
 old['chain_id'] = 'game_of_stakes_4'

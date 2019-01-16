@@ -7,6 +7,6 @@ One-time magic port script to convert a Cosmos SDK `v0.29.x` state export into a
 Usage:
 
 ```bash
-# gaiad export > export.json
+# gaiad export --for-zero-height > export.json
 # ./v0.29-to-v0.30.py export.json genesis.json
 ```
