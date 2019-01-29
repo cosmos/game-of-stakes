@@ -28,13 +28,14 @@ print('Renamed "stake" to "staking"')
 
 # Dec -> Int
 
-old['app_state']['staking']['pool']['loose_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['loose_tokens']))))
+old['app_state']['staking']['pool']['not_bonded_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['loose_tokens']))))
+del old['app_state']['staking']['pool']['loose_tokens']
 old['app_state']['staking']['pool']['bonded_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['bonded_tokens']))))
 
 for v in old['app_state']['staking']['validators']:
   v['tokens'] = str(int(math.floor(float(v['tokens']))))
 
-print('Converted sdk.Dec to sdk.Int for validators')
+print('Converted sdk.Dec to sdk.Int for validators, and renamed "loose_tokens" to "not_bonded_tokens"')
 
 # Create new distribution fields
 
@@ -121,7 +122,7 @@ old['app_state']['auth']['params'] = {
 
 print('Set auth params')
 
-old['app_state']['slashing']['params']['downtime-jail-duration'] = old['app_state']['slashing']['params']['downtime-unbond-duration']
+old['app_state']['slashing']['params']['downtime-jail-duration'] = '600000000000'
 del old['app_state']['slashing']['params']['downtime-unbond-duration']
 
 print('Renamed slashing params')
