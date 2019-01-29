@@ -127,6 +127,17 @@ del old['app_state']['slashing']['params']['downtime-unbond-duration']
 
 print('Renamed slashing params')
 
+old['app_state']['distr']['fee_pool']['community_pool'] = old['app_state']['distr']['fee_pool']['community_pool'][::-1]
+
+for elem in old['app_state']['distr']['fee_pool']['community_pool']:
+  elem['amount'] = str(int(round(float(elem['amount']))))
+
+print('Sorted community pool and rounded amounts')
+
+old['app_state']['staking']['exported'] = False
+
+print('Set exported = false (necessary to initialize correct distribution state)')
+
 # Set chain ID
 
 old['chain_id'] = 'game_of_stakes_4'
