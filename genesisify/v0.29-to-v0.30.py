@@ -122,10 +122,14 @@ old['app_state']['auth']['params'] = {
 
 print('Set auth params')
 
+# Update slashing params
+
 old['app_state']['slashing']['params']['downtime-jail-duration'] = '600000000000'
 del old['app_state']['slashing']['params']['downtime-unbond-duration']
 
 print('Renamed slashing params')
+
+# Sort community pool coins
 
 old['app_state']['distr']['fee_pool']['community_pool'] = old['app_state']['distr']['fee_pool']['community_pool'][::-1]
 
@@ -134,9 +138,18 @@ for elem in old['app_state']['distr']['fee_pool']['community_pool']:
 
 print('Sorted community pool and rounded amounts')
 
+# Set exported to false
+
 old['app_state']['staking']['exported'] = False
 
 print('Set exported = false (necessary to initialize correct distribution state)')
+
+# Sort coins in accounts
+
+for account in old['app_state']['accounts']:
+  # apparently they were all just sorted in reverse
+  if account['coins'] is not None:
+    account['coins'] = account['coins'][::-1]
 
 # Set chain ID
 
