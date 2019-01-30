@@ -171,7 +171,7 @@ I'll accept seed nodes as pull requests here.
 - `343f3d9f1851df44acf976ac832c3633ab49e001@54.146.83.223:26656`
 - `735120d143424734f48692097731f95b5b1d04c1@35.193.88.20:26656`
 
-##$ Scoring
+### Scoring
 
 Games of Stakes scoring will take place at an preannounced blockheight on GoS 4.
 
