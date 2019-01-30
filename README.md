@@ -19,6 +19,11 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 ## Updates
 
+### Game of Stakes 4 The Endgame
+
+We are targeting a manadatory software upgrade to Game of Stakes 4 on Thursday January 31st. We will be also adding vesting stake to all game of stakes participants.
+
+
 ### Game of Stakes 3 the restart
 
 We are excited to resume Game of Stakes in the new year at 15:00 UTC on Jan 3rd.
@@ -164,3 +169,14 @@ I'll accept seed nodes as pull requests here.
 - `ba3bacc714817218562f743178228f23678b2873@public-seed-node.gos.certus.one:26656`
 - `db02715d74e68c48884aad9e9c7dac6bc7f3c7cd@35.239.245.16:26656`
 - `343f3d9f1851df44acf976ac832c3633ab49e001@54.146.83.223:26656`
+
+
+##$ Scoring
+
+Games of Stakes scoring will take place at an preannounced blockheight on GoS 4.
+
+Scoring will primarily consider the number of times a validator has been jailed and the duration of jailing across GoS 1 and GoS3.
+
+Among player who are in the top tier of min jailing instances , we will will looks at signed pre commits and accumulated stake for scoing.
+
+Finally there will be bonuses in the allocation for valdiators who have contributed in interesting ways to Game of Stakes and the retrospective
