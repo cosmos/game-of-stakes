@@ -30,7 +30,7 @@ We are excited to resume Game of Stakes in the new year at 15:00 UTC on Jan 3rd.
 
 The new genesis file for Game of Stakes 3 is up.
 
-We are expecting validators to run `0.29.1-rc0-0-g62d49ed1e` which is a state machine compatible release that fixes an exploitable coin minting bug.
+We are expecting validators to run `0.29.1-0-g6bff708` which is a state machine compatible release that fixes an exploitable coin minting bug.
 
 ```
 shasum -a 256 genesis.json
@@ -169,7 +169,7 @@ I'll accept seed nodes as pull requests here.
 - `ba3bacc714817218562f743178228f23678b2873@public-seed-node.gos.certus.one:26656`
 - `db02715d74e68c48884aad9e9c7dac6bc7f3c7cd@35.239.245.16:26656`
 - `343f3d9f1851df44acf976ac832c3633ab49e001@54.146.83.223:26656`
-
+- `735120d143424734f48692097731f95b5b1d04c1@35.193.88.20:26656`
 
 ##$ Scoring
 
