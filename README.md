@@ -21,7 +21,11 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 ### Game of Stakes 4 The Endgame
 
-We are targeting a manadatory software upgrade to Game of Stakes 4 on Thursday January 31st. We will be also adding vesting stake to all game of stakes participants.
+We are targeting a manadatory software upgrade to Game of Stakes 4 at 12:00UTC on Friday Feb 1st. We will be also adding vesting stake to all game of stakes participants.
+
+The last valid block for scoring on Game of Stakes 3 will be 12:00 UTC 12:00UTC on Thursday Jan 31st.
+
+
 
 
 ### Game of Stakes 3 the restart
