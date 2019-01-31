@@ -127,6 +127,8 @@ print('Set auth params')
 old['app_state']['slashing']['params']['downtime-jail-duration'] = '600000000000'
 del old['app_state']['slashing']['params']['downtime-unbond-duration']
 
+old['app_state']['slashing']['params']['min-signed-per-window'] = '0.8'
+
 print('Renamed slashing params')
 
 # Sort community pool coins
@@ -134,7 +136,7 @@ print('Renamed slashing params')
 old['app_state']['distr']['fee_pool']['community_pool'] = old['app_state']['distr']['fee_pool']['community_pool'][::-1]
 
 for elem in old['app_state']['distr']['fee_pool']['community_pool']:
-  elem['amount'] = str(int(round(float(elem['amount']))))
+  elem['amount'] = str(int(round(float(elem['amount'])) + 1))
 
 print('Sorted community pool and rounded amounts')
 
@@ -156,6 +158,10 @@ for account in old['app_state']['accounts']:
 old['chain_id'] = 'game_of_stakes_4'
 
 print('Set chain ID to game_of_stakes-4')
+
+# Set genesis time
+
+old['genesis_time'] = '2019-02-01T12:00:00Z'
 
 json.dump(old, open(new, 'w'), indent = True)
 
