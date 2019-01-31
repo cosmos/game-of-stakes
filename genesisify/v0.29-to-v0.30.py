@@ -157,6 +157,10 @@ old['chain_id'] = 'game_of_stakes_4'
 
 print('Set chain ID to game_of_stakes-4')
 
+# Set genesis time
+
+old['genesis_time'] = '2019-02-01T12:00:00Z'
+
 json.dump(old, open(new, 'w'), indent = True)
 
 print('Wrote {}!'.format(new))
