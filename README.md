@@ -31,6 +31,19 @@ The genesis file has been published.  Genesis time is Feb 1st 12:00 UTC.
 
 Good luck players.
 
+Version for GOS 4.
+
+```
+cosmos-sdk: 0.30.0-0-ge003c5ebe
+git commit: e003c5ebe02bed51056e46d5ff1a232e2bd00dda
+vendor hash:
+go version go1.11.4 darwin/amd64
+```
+
+To upgrade
+- download the new genesis.json
+- `gaiad unsafe-reset-all`
+- `gaiad start`
 
 ### Game of Stakes 3 the restart
 
