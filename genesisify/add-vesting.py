@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import json, sys
+import json, sys, math
 
 if len(sys.argv) != 3:
     print('Usage: ./add-vesting.py [genesis.json] [new_genesis.json]')
@@ -32,6 +32,13 @@ def add_vesting_account(addr):
     found['original_vesting'] = [{'denom': 'stake', 'amount': '500000'}]
     found['start_time'] = '1548970600'
     found['end_time'] = '1550180200'
+    df = 0
+    for dele in old['app_state']['staking']['bonds']:
+      if dele['delegator_addr'] == addr:
+        val = [v for v in old['app_state']['staking']['validators'] if v['operator_address'] == dele['validator_addr']][0]
+        df += int(math.floor(float(dele['shares']) * float(val['tokens']) / float(val['delegator_shares'])))
+    print('delegated free: {}'.format(df))
+    found['delegated_free'] = [{'denom': 'stake', 'amount': str(df)}]
     print('Address {} found'.format(addr))
     supply_diff = supply_diff + 500000
   else:
