@@ -10,3 +10,9 @@ Usage:
 # gaiad export --for-zero-height > export.json
 # ./v0.29-to-v0.30.py export.json genesis.json
 ```
+
+To add vesting accounts, run:
+
+```bash
+# ./add-vesting.py genesis.json genesis_vesting.json
+```
