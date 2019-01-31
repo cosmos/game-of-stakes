@@ -25,7 +25,11 @@ We are targeting a manadatory software upgrade to Game of Stakes 4 at 12:00UTC o
 
 The last valid block for scoring on Game of Stakes 3 will be 12:00 UTC 12:00UTC on Thursday Jan 31st.
 
+We exported block 330,000(This was nearest state checkpoing and simple to export) and updated the state to new version.
 
+The genesis file has been published.  Genesis time is Feb 1st 12:00 UTC.
+
+Good luck players.
 
 
 ### Game of Stakes 3 the restart
