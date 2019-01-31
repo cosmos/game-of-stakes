@@ -127,6 +127,8 @@ print('Set auth params')
 old['app_state']['slashing']['params']['downtime-jail-duration'] = '600000000000'
 del old['app_state']['slashing']['params']['downtime-unbond-duration']
 
+old['app_state']['slashing']['params']['min-signed-per-window'] = '0.8'
+
 print('Renamed slashing params')
 
 # Sort community pool coins
