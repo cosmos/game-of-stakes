@@ -134,7 +134,7 @@ print('Renamed slashing params')
 old['app_state']['distr']['fee_pool']['community_pool'] = old['app_state']['distr']['fee_pool']['community_pool'][::-1]
 
 for elem in old['app_state']['distr']['fee_pool']['community_pool']:
-  elem['amount'] = str(int(round(float(elem['amount']))))
+  elem['amount'] = str(int(round(float(elem['amount'])) + 1))
 
 print('Sorted community pool and rounded amounts')
 
