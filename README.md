@@ -19,6 +19,18 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 ## Updates
 
+### Game of Stake 5 Removal of the Large Cartel
+
+We will launch Game of Stakes 5 at 12:00 UTC on Friday Feb 2nd. 
+
+Game of Stakes 5 represents are rejection of the stake distribution in GoS 4 by the community.
+
+Clearly indicated by the wide social consensus expressed online, in the community forums and the failure of GoS 4 to start.
+
+Long live subjectivity and automated social consensus. 
+
+Learn more: https://github.com/cosmos/game-of-stakes/pull/263
+
 ### Game of Stakes 4 The Endgame
 
 We are targeting a manadatory software upgrade to Game of Stakes 4 at 12:00UTC on Friday Feb 1st. We will be also adding vesting stake to all game of stakes participants.
