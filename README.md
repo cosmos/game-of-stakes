@@ -21,7 +21,7 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 ### Game of Stake 5 Removal of the Large Cartel
 
-We will launch Game of Stakes 5 at 12:00 UTC on Friday Feb 2nd. 
+We will launch Game of Stakes 5 at 15:00 UTC on Friday Feb 2nd. 
 
 Game of Stakes 5 represents are rejection of the stake distribution in GoS 4 by the community.
 
