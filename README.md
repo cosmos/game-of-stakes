@@ -31,6 +31,12 @@ Long live subjectivity and automated social consensus.
 
 Learn more: https://github.com/cosmos/game-of-stakes/pull/263
 
+```
+
+shasum -a 256 genesis.json
+97297d2259a90499477c9bcd4f140cbdfc051e2a5bb216ad1d36846234a64687  genesis.json
+```
+
 ### Game of Stakes 4 The Endgame
 
 We are targeting a manadatory software upgrade to Game of Stakes 4 at 12:00UTC on Friday Feb 1st. We will be also adding vesting stake to all game of stakes participants.
