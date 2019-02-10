@@ -28,12 +28,12 @@ print('Renamed "stake" to "staking"')
 
 # Dec -> Int
 
-old['app_state']['staking']['pool']['not_bonded_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['loose_tokens']))))
+old['app_state']['staking']['pool']['not_bonded_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['loose_tokens']))) * 10 **6)
 del old['app_state']['staking']['pool']['loose_tokens']
-old['app_state']['staking']['pool']['bonded_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['bonded_tokens']))))
+old['app_state']['staking']['pool']['bonded_tokens'] = str(int(math.floor(float(old['app_state']['staking']['pool']['bonded_tokens'])))* 10 **6)
 
 for v in old['app_state']['staking']['validators']:
-  v['tokens'] = str(int(math.floor(float(v['tokens']))))
+  v['tokens'] = str(int(math.floor(float(v['tokens']))) * 10 **6)
 
 print('Converted sdk.Dec to sdk.Int for validators, and renamed "loose_tokens" to "not_bonded_tokens"')
 
@@ -48,7 +48,7 @@ def shares_to_tokens(d):
   tokens = float(val['tokens'])
   shares = float(val['delegator_shares'])
   del_tokens = float(d['shares']) * tokens / shares
-  return str(int(math.floor(del_tokens)))
+  return str(int(math.floor(del_tokens)) * 10**6 )
 
 # All delegations
 delegations = [(d['delegator_addr'], d['validator_addr'], shares_to_tokens(d)) for d in old['app_state']['staking']['bonds']]
@@ -140,7 +140,7 @@ print('Renamed slashing params')
 old['app_state']['distr']['fee_pool']['community_pool'] = old['app_state']['distr']['fee_pool']['community_pool'][::-1]
 
 for elem in old['app_state']['distr']['fee_pool']['community_pool']:
-  elem['amount'] = str(int(round(float(elem['amount'])) + 1))
+  elem['amount'] = str(int(round(float(elem['amount'])) + 1) * 10 **6 )
 
 print('Sorted community pool and rounded amounts')
 
@@ -156,6 +156,9 @@ for account in old['app_state']['accounts']:
   # apparently they were all just sorted in reverse
   if account['coins'] is not None:
     account['coins'] = account['coins'][::-1]
+    for coin in account['coins']:
+      if coin['denom'] == "stake":
+        coin['amount'] = str(int(coin['amount']) * 10 ** 6)
 
 # Set chain ID
 

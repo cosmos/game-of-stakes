@@ -26,10 +26,10 @@ def add_vesting_account(addr):
       st = [x for x in found['coins'] if x['denom'] == 'stake']
     if len(st) > 0:
       st = st[0]
-      st['amount'] = str(int(st['amount']) + 500000)
+      st['amount'] = str(int(st['amount']) + 500000 * 10 **6 )
     else:
-      found['coins'].append({'denom': 'stake', 'amount': '500000'})
-    found['original_vesting'] = [{'denom': 'stake', 'amount': '500000'}]
+      found['coins'].append({'denom': 'stake', 'amount': str(500000 * 10 **6)})
+    found['original_vesting'] = [{'denom': 'stake', 'amount': str( 500000 * 10 **6)}]
     found['start_time'] = '1548970600'
     found['end_time'] = '1550180200'
     df = 0
@@ -40,7 +40,7 @@ def add_vesting_account(addr):
     print('delegated free: {}'.format(df))
     found['delegated_free'] = [{'denom': 'stake', 'amount': str(df)}]
     print('Address {} found'.format(addr))
-    supply_diff = supply_diff + 500000
+    supply_diff = supply_diff + 500000 * 10 **6
   else:
     print('Address {} not found, skipping'.format(addr))
 
