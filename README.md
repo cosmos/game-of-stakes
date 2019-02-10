@@ -41,7 +41,7 @@ Goals for GoS 6 genesis
 
 ```
 shasum -a 256 genesis.json
-841c48b0686faf568f624be1e55f192becc42cd4f0b73e9a1a49dd994b2dea25  genesis.json
+897ab3ed7067e1e56dc2d6766dce5a0006a754759cbcb7f3d1b1485eda0a1b8f genesis.json
 ```
 
 
