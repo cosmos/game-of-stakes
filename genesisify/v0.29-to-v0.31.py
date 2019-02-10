@@ -113,21 +113,25 @@ print('Set validator slash events')
 # Set new required auth params
 
 old['app_state']['auth']['params'] = {
-  "MemoCostPerByte": "3",
-  "MaxMemoCharacters": "256",
-  "TxSigLimit": "7",
-  "SigVerifyCostED25519": "590",
-  "SigVerifyCostSecp256k1": "1000"
+  "tx_size_cost_per_byte": "3",
+  "max_memo_characters": "256",
+  "tx_sig_limit": "7",
+  "sig_verify_cost_ed25519": "590",
+  "sig_verify_cost_secp256k1": "1000"
 }
 
 print('Set auth params')
 
 # Update slashing params
 
-old['app_state']['slashing']['params']['downtime-jail-duration'] = '600000000000'
-del old['app_state']['slashing']['params']['downtime-unbond-duration']
-
-old['app_state']['slashing']['params']['min-signed-per-window'] = '0.8'
+old['app_state']['slashing']['params'] ={
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "5000",
+        "min_signed_per_window": "0.80",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+        }
 
 print('Renamed slashing params')
 
@@ -155,13 +159,13 @@ for account in old['app_state']['accounts']:
 
 # Set chain ID
 
-old['chain_id'] = 'game_of_stakes_4'
+old['chain_id'] = 'game_of_stakes_6'
 
-print('Set chain ID to game_of_stakes-4')
+print('Set chain ID to game_of_stakes-6   ')
 
 # Set genesis time
 
-old['genesis_time'] = '2019-02-01T12:00:00Z'
+old['genesis_time'] = '2019-02-11T12:00:00Z'
 
 json.dump(old, open(new, 'w'), indent = True)
 
