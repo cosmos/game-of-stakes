@@ -19,6 +19,33 @@ chat here: [Riot](https://matrix.to/#/!RKBbCjMEiDPKKewRIE:matrix.org?via=matrix.
 
 ## Updates
 
+
+### Game of Stake 6 The Boss Battle
+
+We will launch Game of Stakes 6 at 12:00 UTC on Monday Feb 11nd. 
+
+Game of Stakes 6 will conclude on 00:OO UTC on Saturday Feb 16th.
+
+Game of Stakes 6 all about testing the release candidate version of the Cosmos Hub `gaia-v0.31.1`
+
+We are excited to bring the successful Game of Stakes experiment to a close and award prizes.
+
+Thank you all for playing   
+
+Goals for GoS 6 genesis
+
+- Pretty much like GoS 5
+- Better account list for Adding vesting generate from GoS 1 account list
+- Re-introduce 1 Bitfish validator
+- some minor changes for parameter names introduce in sdk v0.31.0
+
+```
+shasum -a 256 genesis.json
+841c48b0686faf568f624be1e55f192becc42cd4f0b73e9a1a49dd994b2dea25  genesis.json
+```
+
+
+
 ### Game of Stake 5 Removal of the Large Cartel
 
 We will launch Game of Stakes 5 at 15:00 UTC on Friday Feb 2nd. 
