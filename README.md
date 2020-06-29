@@ -1,3 +1,5 @@
+> This repo is archived as of June  29, 2020 but made available for historical record
+
 # Game Of Stakes
 
 ![Game Of Stakes](GameOfStakes.png)
